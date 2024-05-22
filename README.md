@@ -11,40 +11,25 @@ Soy estudiante de programación, apasionado por el desarrollo de software y siem
 
 ## Tecnologías y Herramientas
 
-- **Lenguajes de Programación**: Python, JavaScript, C++
-- **Frameworks y Librerías**: React, Django, Flask
-- **Bases de Datos**: PostgreSQL, MySQL
-- **Herramientas de Desarrollo**: Visual Studio, VSCode, Git, Docker
+- **Lenguajes de Programación**: Python, C#
+- **Frameworks y Librerías**: React
+- **Bases de Datos**: SQL Server
+- **Herramientas de Desarrollo**: Visual Studio, Git, Vim
 - **Sistemas Operativos**: Arch Linux, Windows
 
 ## Proyectos Destacados
 
-### [Proyecto 1: Gestor de Tareas](https://github.com/tu-usuario/proyecto-1)
-Aplicación web para gestionar tareas personales con funcionalidades de creación, edición y eliminación de tareas.
-
-- **Tecnologías**: React, Django, PostgreSQL
-- **Características**:
-  - Asignación de prioridades
-  - Fechas de vencimiento
-  - Notificaciones por correo electrónico
-
-### [Proyecto 2: Blog Personal](https://github.com/tu-usuario/proyecto-2)
-Blog personal donde publico artículos sobre programación y tecnología.
-
-- **Tecnologías**: Next.js, Node.js, MongoDB
-- **Características**:
-  - Autenticación de usuarios
-  - Publicación y edición de artículos
-  - Comentarios y likes
+### [Proyecto 1:]
+### [Proyecto 2: Blog Personal]
 
 ## Contacto
 
-- **Correo Electrónico**: [tu-email@example.com](mailto:tu-email@example.com)
+- **Correo Electrónico**: [nachoosella7@gmail.com](mailto:nachoosella7@gmail.com)
 - **LinkedIn**: [Tu Perfil de LinkedIn](https://www.linkedin.com/in/tu-perfil)
-- **GitHub**: [tu-usuario](https://github.com/tu-usuario)
+- **GitHub**: [NachoOsella](https://github.com/NachoOsella)
 
 ## Otros Intereses
 
-Además de la programación, me interesa la música, los videojuegos y el ciclismo. Siempre estoy dispuesto a aprender algo nuevo y a colaborar en proyectos interesantes.
+Además de la programación, me interesa la música, los videojuegos y el basket. Siempre estoy dispuesto a aprender algo nuevo y a colaborar en proyectos interesantes.
 
 ¡Gracias por visitar mi perfil!
