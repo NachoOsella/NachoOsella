@@ -7,7 +7,7 @@
 
 ## Sobre mí
 
-Soy estudiante de programación, apasionado por el desarrollo de software y siempre en busca de nuevos desafíos. Actualmente, utilizo **Arch Linux con Hyprland** como mi sistema operativo principal, lo que me permite tener un entorno de desarrollo altamente personalizado y eficiente.
+Soy estudiante de programación en la Universidad Tecnológica Nacional(Facultad Regional de Córdoba), apasionado por el desarrollo de software y siempre en busca de nuevos desafíos. Actualmente, utilizo **Arch Linux con Hyprland** como mi sistema operativo principal, lo que me permite tener un entorno de desarrollo altamente personalizado y eficiente.
 
 ## Tecnologías y Herramientas
 
@@ -20,7 +20,7 @@ Soy estudiante de programación, apasionado por el desarrollo de software y siem
 ## Proyectos Destacados
 
 ### [Proyecto 1:]
-### [Proyecto 2: Blog Personal]
+### [Proyecto 2:]
 
 ## Contacto
 
