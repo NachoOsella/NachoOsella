@@ -7,29 +7,5 @@
 
 ## Sobre mí
 
-Soy estudiante de programación en la Universidad Tecnológica Nacional(Facultad Regional de Córdoba), apasionado por el desarrollo de software y siempre en busca de nuevos desafíos. Actualmente, utilizo **Arch Linux con Hyprland** como mi sistema operativo principal, lo que me permite tener un entorno de desarrollo altamente personalizado y eficiente.
+I use arch BTW...
 
-## Tecnologías y Herramientas
-
-- **Lenguajes de Programación**: Python, C#
-- **Frameworks y Librerías**: React
-- **Bases de Datos**: SQL Server
-- **Herramientas de Desarrollo**: Visual Studio, Git, Vim
-- **Sistemas Operativos**: Arch Linux, Windows
-
-## Proyectos Destacados
-
-### [Proyecto 1:]
-### [Proyecto 2:]
-
-## Contacto
-
-- **Correo Electrónico**: [nachoosella7@gmail.com](mailto:nachoosella7@gmail.com)
-- **LinkedIn**: [Tu Perfil de LinkedIn](https://www.linkedin.com/in/tu-perfil)
-- **GitHub**: [NachoOsella](https://github.com/NachoOsella)
-
-## Otros Intereses
-
-Además de la programación, me interesa la música, los videojuegos y el basket. Siempre estoy dispuesto a aprender algo nuevo y a colaborar en proyectos interesantes.
-
-¡Gracias por visitar mi perfil!
