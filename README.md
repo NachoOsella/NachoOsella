@@ -1,74 +1,57 @@
-<!--
-Profile README for: Nacho
-Tip: Keep this file concise. Add depth via pinned repos + a portfolio site.
--->
-
-<h1 align="left">Nacho Osella</h1>
+# Nacho Osella
 <p align="left">
-  Programming student (UTN-FRC) focused on backend engineering, clean architecture, and pragmatic DevOps.
+  <img src="https://img.shields.io/badge/Status-Building-green?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-Backend%20Architecture-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/OS-Arch%20Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white" />
 </p>
 
+Backend-leaning Software Student at **UTN-FRC**. I build systems with a focus on **Clean Architecture**, **Domain-Driven Design (DDD)**, and **reproducible environments**.
+
+---
+
+### 🛠️ Tech Stack & Ecosystem
+
+| Layer | Technologies |
+| :--- | :--- |
+| **Languages** | Java (17/21), TypeScript, SQL, Bash/Fish |
+| **Backend** | Spring Boot (Data, Security, Web), JPA/Hibernate, JUnit 5/Mockito |
+| **Frontend** | Angular, RxJS, Tailwind CSS |
+| **Infrastructure** | Docker, Docker Compose, PostgreSQL, MySQL |
+| **Workflow** | Neovim/Alacritty, Git, Linux (Hyprland WM), CI/CD Basics |
+
+---
+
+### 🚀 Featured Projects
+
+#### 🧠 [PlanAI](https://github.com/NachoOsella/PlanAI) 
+*Conversational Project Planning Tool*
+- **The Core:** Translates natural language prompts into structured agile artifacts (Epics/Stories).
+- **Stack:** Java/Spring Boot + LLM Integration + Angular.
+- **Value:** Reduces friction between ideation and task tracking.
+
+#### 🏗️ Microservices Laboratory
+- Exploring **Service Discovery**, **API Gateways**, and **Event-Driven patterns**.
+- Implementation of **Observability** basics (Structured logging, health checks).
+- Focus on **idempotency** and **transactional integrity** across boundaries.
+
+---
+
+### ⚙️ Developer Philosophy
+- **Clean Code > Clever Code:** I prioritize maintainability and the "Principle of Least Astonishment."
+- **Pragmatic Testing:** I value integration tests that validate business requirements over 100% coverage of getters/setters.
+- **Reproducibility:** My `dotfiles` are a first-class citizen. If it’s not automated or documented, it doesn't exist.
+
+---
+
+### 📊 GitHub Stats
 <p align="left">
-  <a href="https://github.com/NachoOsella">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
-  </a>
-  <img alt="Arch Linux" src="https://img.shields.io/badge/Arch%20Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white" />
-  <img alt="Hyprland" src="https://img.shields.io/badge/Hyprland-0F172A?style=flat-square&logo=wayland&logoColor=white" />
-  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-  <img alt="Spring" src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-  <img alt="Angular" src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NachoOsella&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NachoOsella&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="150" />
 </p>
 
 ---
 
-## About
-
-- Currently studying **Programming** (UTN-FRC).
-- Building projects with **Java + Spring Boot**, **Angular**, and **SQL** (PostgreSQL / MySQL).
-- Interested in **microservices**, **API design**, **testing**, and **containerization**.
-- Daily driver: **Arch Linux + Hyprland** (yes, I use Arch btw).
-
----
-
-## Tech Stack
-
-**Backend**
-- Java (17/21), Spring Boot, JPA/Hibernate, REST APIs, Maven
-
-**Frontend**
-- Angular, TypeScript, RxJS, HTML/CSS
-
-**Data**
-- PostgreSQL, MySQL, SQL modeling, migrations
-
-**DevOps / Tooling**
-- Docker / Docker Compose, Linux, Git/GitHub, CI basics
-
----
-
-## What I’m working on
-
-- **PlanAI** — Conversational project planning tool that generates epics/user stories/tasks and persists them.
-- **Microservice-based projects** — Learning service boundaries, observability basics, and clean integration patterns.
-- **Developer workflow** — dotfiles, reproducible setups, and high-signal documentation.
-
-> If you’re reviewing my repositories: check the **pinned projects** below for the most representative work.
-
----
-
-## Highlights
-
-- Strong focus on **readable code**, **clean commits**, and **documentation that helps the next developer**.
-- I prefer **tests that protect behavior** (not just coverage).
-- Comfortable working end-to-end: **DB → API → UI → Docker**.
-
----
-
-## Contact
-
-- GitHub: https://github.com/NachoOsella  
-- LinkedIn: https://www.linkedin.com/in/nacho-osella/
-- Email: nachoosella03@gmail.com 
-
+### 📫 Connect
+- **LinkedIn:** [/in/nacho-osella](https://www.linkedin.com/in/nacho-osella/)
+- **Email:** [nachoosella03@gmail.com](mailto:nachoosella03@gmail.com)
+- **Dotfiles:** (Link your dotfiles repo here if public)
