@@ -69,18 +69,6 @@ Tip: Keep this file concise. Add depth via pinned repos + a portfolio site.
 ## Contact
 
 - GitHub: https://github.com/NachoOsella  
-- LinkedIn: (add your link here)
-- Email: (add your email here)
+- LinkedIn: https://www.linkedin.com/in/nacho-osella/
+- Email: nachoosella03@gmail.com 
 
----
-
-<details>
-  <summary><b>Optional: GitHub Stats</b></summary>
-  <br/>
-  <p>
-    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=NachoOsella&show_icons=true&hide_title=true" />
-  </p>
-  <p>
-    <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NachoOsella&layout=compact" />
-  </p>
-</details>
