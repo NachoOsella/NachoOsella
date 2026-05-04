@@ -57,7 +57,7 @@ I care about practical engineering: clear domain language, boring deployments, h
   </tr>
   <tr>
     <td><strong>Workflow</strong></td>
-    <td>Git, Neovim, Alacritty, Fish, Hyprland</td>
+    <td>Git, Neovim, Kitty, Fish, Hyprland</td>
   </tr>
 </table>
 
