@@ -8,7 +8,7 @@
 <span>&nbsp;·&nbsp;</span>
 <a href="mailto:nachoosella03@gmail.com">Email</a>
 <span>&nbsp;·&nbsp;</span>
-<a href="https://github.com/NachoOsella/dotfiles">Dotfiles</a>
+<a href="https://github.com/NachoOsella/DotFiles-V4">Dotfiles</a>
 
 <br />
 <br />
