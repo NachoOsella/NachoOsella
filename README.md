@@ -10,9 +10,6 @@
 <span>&nbsp;·&nbsp;</span>
 <a href="https://github.com/NachoOsella/DotFiles-V4">Dotfiles</a>
 
-<br />
-<br />
-
 <img src="https://img.shields.io/badge/Java_21-111827?style=flat-square&logo=openjdk&logoColor=white" alt="Java 21" />
 <img src="https://img.shields.io/badge/Spring_Boot-111827?style=flat-square&logo=springboot&logoColor=6DB33F" alt="Spring Boot" />
 <img src="https://img.shields.io/badge/Angular-111827?style=flat-square&logo=angular&logoColor=DD0031" alt="Angular" />
