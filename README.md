@@ -21,9 +21,6 @@
 
 <br />
 <br />
-
-<img src="https://media1.tenor.com/m/ssCPzcgyycIAAAAd/arch-linux-linux.gif" width="230" alt="Arch Linux meme gif" />
-
 </div>
 
 ---
