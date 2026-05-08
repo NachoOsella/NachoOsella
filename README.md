@@ -19,8 +19,6 @@
 <img src="https://img.shields.io/badge/Arch_Linux-111827?style=flat-square&logo=archlinux&logoColor=1793D1" alt="Arch Linux" />
 <img src="https://img.shields.io/badge/Neovim-111827?style=flat-square&logo=neovim&logoColor=57A143" alt="Neovim" />
 
-<br />
-<br />
 </div>
 
 ---
