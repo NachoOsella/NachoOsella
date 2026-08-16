@@ -2,7 +2,10 @@
 
 # Ignacio Osella
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=2800&pause=900&color=A9B665&center=true&vCenter=true&width=520&lines=Full-stack+developer+%C2%B7+backend+leaning;Java+%2B+Spring+Boot;building+useful+things+for+fun" alt="Typing SVG" />
+<img
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=2800&pause=900&color=A9B665&center=true&vCenter=true&width=520&lines=Full-stack+developer+%C2%B7+backend+leaning;Java+%2B+Spring+Boot;building+useful+things+for+fun"
+alt="Typing animation"
+/>
 
 **Full-stack developer from Córdoba, Argentina.**
 Mostly building with **Java, Spring Boot, Angular and React**.
@@ -11,11 +14,17 @@ Mostly building with **Java, Spring Boot, Angular and React**.
 
 </div>
 
+<br>
+
 ### Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,postgres,angular,react,ts,docker,linux,neovim,git&theme=dark" />
-</p>
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=java,spring,postgres,angular,react,ts,docker,linux,neovim,git&theme=dark" />
+
+</div>
+
+<br>
 
 ### Selected work
 
@@ -31,12 +40,19 @@ Browser-only image processor built around an 11-stage Gruvbox pixel pipeline.
 **[DotFiles-V4](https://github.com/NachoOsella/DotFiles-V4)**
 My Arch Linux + Hyprland + Quickshell + Neovim setup.
 
+<br>
+
 <div align="center">
 
-### Activity
-
-<img src="https://streak-stats.demolab.com?user=NachoOsella&theme=gruvbox-duo&hide_border=true&background=00000000" alt="GitHub Streak" />
-
-<sub>Java · Spring Boot · Linux · probably tweaking Gruvbox again</sub>
+<img
+width="210"
+src="https://streak-stats.demolab.com?user=NachoOsella&theme=gruvbox-duo&hide_border=true&background=00000000&hide_current_streak=true&hide_longest_streak=true&card_width=210"
+alt="Total contributions"
+/>
+   <img
+width="520"
+src="https://raw.githubusercontent.com/NachoOsella/NachoOsella/output/github-contribution-grid-snake-dark.svg"
+alt="Contribution snake"
+/>
 
 </div>
