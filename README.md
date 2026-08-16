@@ -44,15 +44,24 @@ My Arch Linux + Hyprland + Quickshell + Neovim setup.
 
 <div align="center">
 
-<img
-width="210"
-src="https://streak-stats.demolab.com?user=NachoOsella&theme=gruvbox-duo&hide_border=true&background=00000000&hide_current_streak=true&hide_longest_streak=true&card_width=210"
-alt="Total contributions"
-/>
-   <img
-width="520"
-src="https://raw.githubusercontent.com/NachoOsella/NachoOsella/output/github-contribution-grid-snake-dark.svg"
-alt="Contribution snake"
-/>
+<table>
+  <tr>
+    <td align="center" valign="middle" width="220">
+      <img
+        width="200"
+        src="https://streak-stats.demolab.com?user=NachoOsella&theme=gruvbox-duo&hide_border=true&background=00000000&hide_current_streak=true&hide_longest_streak=true&card_width=200"
+        alt="Total contributions"
+      />
+    </td>
+    <td align="center" valign="middle" width="660">
+      <img
+        width="640"
+        src="https://raw.githubusercontent.com/NachoOsella/NachoOsella/output/github-contribution-grid-snake-dark.svg"
+        alt="Contribution snake"
+      />
+    </td>
+  </tr>
+</table>
 
 </div>
+
