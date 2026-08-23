@@ -21,6 +21,9 @@ Mostly building with **Java, Spring Boot, Angular and React**.
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=java,spring,postgres,angular,react,ts,docker,linux,neovim,git&theme=dark" />
+<a href="https://pi.dev" title="Pi Coding Agent">
+  <img width="48" height="48" src="https://raw.githubusercontent.com/NachoOsella/NachoOsella/main/assets/pi-agent.svg" alt="Pi Coding Agent" />
+</a>
 
 </div>
 
