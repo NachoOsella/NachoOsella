@@ -1,18 +1,21 @@
-import { mkdirSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const USER = "NachoOsella";
 const TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
 const OUT = "dist/stats.svg";
+const FONT_DIR = new URL("../assets/", import.meta.url);
 
 const C = {
-  bg: "#282828",
+  bg: "#1d2021",
   border: "#3c3836",
   yellow: "#fabd2f",
   green: "#a9b665",
-  aqua: "#8ec07c",
-  grey: "#a89984",
-  light: "#ebdbb2",
-  muted: "#665c54",
+};
+
+// Embed the font so the card keeps its typography outside the local environment.
+const FONTS = {
+  regular: readFileSync(new URL("JetBrainsMono-Regular.ttf", FONT_DIR)).toString("base64"),
+  bold: readFileSync(new URL("JetBrainsMono-Bold.ttf", FONT_DIR)).toString("base64"),
 };
 
 async function gql(query, variables = {}) {
@@ -60,29 +63,18 @@ async function getData() {
   return { lifetime, recent, repos, yearsActive: years.length || 1, sinceYear: new Date(createdAt).getFullYear(), followers: base.user.followers.totalCount };
 }
 
-function buildSvg({ lifetime, recent, repos, yearsActive, sinceYear }) {
+function buildSvg({ lifetime }) {
   const totalStr = fmt(lifetime);
   return `<svg xmlns="http://www.w3.org/2000/svg" width="200" height="195" viewBox="0 0 200 195" role="img" aria-label="${totalStr} contributions">
-  <style>.mono{font-family:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace}.sans{font-family:'Segoe UI',Ubuntu,Inter,sans-serif}</style>
-  <rect x="0.5" y="0.5" width="199" height="194" rx="9" fill="${C.bg}" stroke="${C.border}"/>
-  <rect x="0.5" y="0.5" width="199" height="194" rx="9" fill="none" stroke="white" stroke-opacity="0.04"/>
-  <g opacity="0.95">
-    <circle cx="18" cy="14" r="4.2" fill="${C.border}"/>
-    <circle cx="30" cy="14" r="4.2" fill="${C.muted}"/>
-    <circle cx="42" cy="14" r="4.2" fill="#d8a657"/>
-    <circle cx="54" cy="14" r="4.2" fill="${C.green}"/>
-  </g>
-  <text x="170" y="17.5" text-anchor="end" class="sans" font-size="8.5" font-weight="600" letter-spacing="0.08em" fill="${C.grey}" opacity="0.9">LIFETIME</text>
-  <g text-anchor="middle">
-    <text x="100" y="88" class="mono" font-size="38" font-weight="800" fill="${C.yellow}" letter-spacing="-0.02em">${totalStr}</text>
-    <text x="100" y="108" class="sans" font-size="11" font-weight="700" letter-spacing="0.14em" fill="${C.aqua}">CONTRIBUTIONS</text>
-    <text x="100" y="125" class="sans" font-size="9.5" fill="${C.grey}">last year · ${fmt(recent)}</text>
-  </g>
-  <line x1="16" y1="140" x2="184" y2="140" stroke="${C.border}" stroke-width="1"/>
-  <g text-anchor="middle" class="sans">
-    <text x="100" y="158" font-size="9.5" fill="${C.light}"><tspan font-weight="700">${repos}</tspan><tspan fill="${C.grey}"> repos</tspan><tspan fill="${C.muted}">  ·  </tspan><tspan font-weight="700">${yearsActive}</tspan><tspan fill="${C.grey}"> yrs</tspan><tspan fill="${C.muted}">  ·  </tspan><tspan fill="${C.grey}">since </tspan><tspan font-weight="700">${sinceYear}</tspan></text>
-    <text x="100" y="174" font-size="7.5" letter-spacing="0.1em" fill="${C.muted}">GITHUB PROFILE · AUTO-UPDATED DAILY</text>
-  </g>
+  <style>
+    @font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:400;src:url(data:font/ttf;base64,${FONTS.regular}) format("truetype")}
+    @font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:700;src:url(data:font/ttf;base64,${FONTS.bold}) format("truetype")}
+    .mono{font-family:"JetBrains Mono",monospace}
+  </style>
+  <rect x="0.5" y="0.5" width="199" height="194" fill="${C.bg}" stroke="${C.border}"/>
+  <rect width="200" height="3" fill="${C.green}"/>
+  <text x="100" y="78" text-anchor="middle" class="mono" font-size="10" font-weight="400" letter-spacing="0.16em" fill="${C.green}">CONTRIBUTIONS</text>
+  <text x="100" y="132" text-anchor="middle" class="mono" font-size="44" font-weight="700" letter-spacing="-0.06em" fill="${C.yellow}">${totalStr}</text>
 </svg>`;
 }
 
