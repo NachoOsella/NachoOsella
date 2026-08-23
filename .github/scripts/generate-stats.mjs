@@ -11,6 +11,7 @@ const C = {
   yellow: "#fabd2f",
   green: "#a9b665",
   muted: "#a89984",
+  foreground: "#d4be98",
 };
 
 // Embed the font so the card keeps its typography outside the local environment.
@@ -74,11 +75,20 @@ function buildSvg({ lifetime, recent, repos, yearsActive, sinceYear }) {
   </style>
   <rect x="0.5" y="0.5" width="199" height="194" fill="${C.bg}" stroke="${C.border}"/>
   <rect width="200" height="3" fill="${C.green}"/>
-  <text x="100" y="47" text-anchor="middle" class="mono" font-size="10.5" font-weight="400" letter-spacing="0.16em" fill="${C.green}">CONTRIBUTIONS</text>
-  <text x="100" y="109" text-anchor="middle" class="mono" font-size="48" font-weight="700" letter-spacing="-0.06em" fill="${C.yellow}">${totalStr}</text>
-  <text x="100" y="134" text-anchor="middle" class="mono" font-size="10" fill="${C.muted}">last year · ${fmt(recent)}</text>
-  <line x1="20" y1="151" x2="180" y2="151" stroke="${C.border}"/>
-  <text x="100" y="178" text-anchor="middle" class="mono" font-size="10.5" fill="${C.muted}">${repos} repos · ${yearsActive} yrs · since ${sinceYear}</text>
+  <text x="16" y="28" class="mono" font-size="10" letter-spacing="0.15em" fill="${C.green}">CONTRIBUTIONS</text>
+  <text x="16" y="82" class="mono" font-size="46" font-weight="700" letter-spacing="-0.06em" fill="${C.yellow}">${totalStr}</text>
+  <line x1="16" y1="101" x2="184" y2="101" stroke="${C.border}"/>
+  <text x="16" y="123" class="mono" font-size="9" letter-spacing="0.08em" fill="${C.muted}">LAST YEAR</text>
+  <text x="184" y="124" text-anchor="end" class="mono" font-size="16" font-weight="700" fill="${C.foreground}">${fmt(recent)}</text>
+  <line x1="16" y1="140" x2="184" y2="140" stroke="${C.border}"/>
+  <line x1="72" y1="153" x2="72" y2="181" stroke="${C.border}"/>
+  <line x1="132" y1="153" x2="132" y2="181" stroke="${C.border}"/>
+  <text x="16" y="158" class="mono" font-size="8.5" letter-spacing="0.08em" fill="${C.muted}">REPOS</text>
+  <text x="16" y="180" class="mono" font-size="16" font-weight="700" fill="${C.foreground}">${repos}</text>
+  <text x="84" y="158" class="mono" font-size="8.5" letter-spacing="0.08em" fill="${C.muted}">ACTIVE</text>
+  <text x="84" y="180" class="mono" font-size="14" font-weight="700" fill="${C.foreground}">${yearsActive} YRS</text>
+  <text x="144" y="158" class="mono" font-size="8.5" letter-spacing="0.08em" fill="${C.muted}">SINCE</text>
+  <text x="144" y="180" class="mono" font-size="13" font-weight="700" fill="${C.foreground}">${sinceYear}</text>
 </svg>`;
 }
 
