@@ -10,6 +10,7 @@ const C = {
   border: "#3c3836",
   yellow: "#fabd2f",
   green: "#a9b665",
+  muted: "#a89984",
 };
 
 // Embed the font so the card keeps its typography outside the local environment.
@@ -63,7 +64,7 @@ async function getData() {
   return { lifetime, recent, repos, yearsActive: years.length || 1, sinceYear: new Date(createdAt).getFullYear(), followers: base.user.followers.totalCount };
 }
 
-function buildSvg({ lifetime }) {
+function buildSvg({ lifetime, recent, repos, yearsActive, sinceYear }) {
   const totalStr = fmt(lifetime);
   return `<svg xmlns="http://www.w3.org/2000/svg" width="200" height="195" viewBox="0 0 200 195" role="img" aria-label="${totalStr} contributions">
   <style>
@@ -74,7 +75,10 @@ function buildSvg({ lifetime }) {
   <rect x="0.5" y="0.5" width="199" height="194" fill="${C.bg}" stroke="${C.border}"/>
   <rect width="200" height="3" fill="${C.green}"/>
   <text x="100" y="78" text-anchor="middle" class="mono" font-size="10" font-weight="400" letter-spacing="0.16em" fill="${C.green}">CONTRIBUTIONS</text>
-  <text x="100" y="132" text-anchor="middle" class="mono" font-size="44" font-weight="700" letter-spacing="-0.06em" fill="${C.yellow}">${totalStr}</text>
+  <text x="100" y="126" text-anchor="middle" class="mono" font-size="44" font-weight="700" letter-spacing="-0.06em" fill="${C.yellow}">${totalStr}</text>
+  <text x="100" y="148" text-anchor="middle" class="mono" font-size="8.5" fill="${C.muted}">last year · ${fmt(recent)}</text>
+  <line x1="20" y1="162" x2="180" y2="162" stroke="${C.border}"/>
+  <text x="100" y="180" text-anchor="middle" class="mono" font-size="8.5" fill="${C.muted}">${repos} repos · ${yearsActive} yrs · since ${sinceYear}</text>
 </svg>`;
 }
 
