@@ -56,6 +56,7 @@ My Arch Linux + Hyprland + Quickshell + Neovim setup.
     <td align="center" valign="middle" width="660">
       <img
         width="640"
+        height="195"
         src="https://raw.githubusercontent.com/NachoOsella/NachoOsella/output/github-contribution-grid-snake-dark.svg"
         alt="Contribution snake"
       />

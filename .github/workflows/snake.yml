@@ -32,6 +32,21 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?color_snake=%23a9b665&color_dots=%231d2021,%233c3836,%23665c54,%23d8a657,%23a9b665
 
+      - name: Match snake height to stats card
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path("dist/github-contribution-grid-snake-dark.svg")
+          svg = path.read_text()
+          svg = svg.replace(
+              '<svg viewBox=',
+              '<svg preserveAspectRatio="none" viewBox=',
+              1,
+          )
+          path.write_text(svg)
+          PY
+
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v5
         with:
