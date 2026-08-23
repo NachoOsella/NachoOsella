@@ -49,8 +49,8 @@ My Arch Linux + Hyprland + Quickshell + Neovim setup.
     <td align="center" valign="middle" width="220">
       <img
         width="200"
-        src="https://github-readme-streak-stats.herokuapp.com/?user=NachoOsella&theme=gruvbox-duo&hide_border=true&background=00000000&hide_current_streak=true&hide_longest_streak=tr
- ue&card_width=200"
+        src="https://github-readme-stats.vercel.app/api?username=NachoOsella&hide_border=true&bg_color=00000000&theme=gruvbox&show_icons=false&include_all_commits=true&count_private=
+ true"
         alt="Total contributions"
       />
     </td>
