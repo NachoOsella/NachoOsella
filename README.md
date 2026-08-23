@@ -49,8 +49,7 @@ My Arch Linux + Hyprland + Quickshell + Neovim setup.
     <td align="center" valign="middle" width="220">
       <img
         width="200"
-        src="https://github-readme-stats.vercel.app/api?username=NachoOsella&hide_border=true&bg_color=00000000&theme=gruvbox&show_icons=false&include_all_commits=true&count_private=
- true"
+        src="https://raw.githubusercontent.com/NachoOsella/NachoOsella/output/stats.svg"
         alt="Total contributions"
       />
     </td>
@@ -65,4 +64,3 @@ My Arch Linux + Hyprland + Quickshell + Neovim setup.
 </table>
 
 </div>
-
