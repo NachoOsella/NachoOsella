@@ -74,11 +74,11 @@ function buildSvg({ lifetime, recent, repos, yearsActive, sinceYear }) {
   </style>
   <rect x="0.5" y="0.5" width="199" height="194" fill="${C.bg}" stroke="${C.border}"/>
   <rect width="200" height="3" fill="${C.green}"/>
-  <text x="100" y="78" text-anchor="middle" class="mono" font-size="10" font-weight="400" letter-spacing="0.16em" fill="${C.green}">CONTRIBUTIONS</text>
-  <text x="100" y="126" text-anchor="middle" class="mono" font-size="44" font-weight="700" letter-spacing="-0.06em" fill="${C.yellow}">${totalStr}</text>
-  <text x="100" y="148" text-anchor="middle" class="mono" font-size="8.5" fill="${C.muted}">last year · ${fmt(recent)}</text>
-  <line x1="20" y1="162" x2="180" y2="162" stroke="${C.border}"/>
-  <text x="100" y="180" text-anchor="middle" class="mono" font-size="8.5" fill="${C.muted}">${repos} repos · ${yearsActive} yrs · since ${sinceYear}</text>
+  <text x="100" y="47" text-anchor="middle" class="mono" font-size="10.5" font-weight="400" letter-spacing="0.16em" fill="${C.green}">CONTRIBUTIONS</text>
+  <text x="100" y="109" text-anchor="middle" class="mono" font-size="48" font-weight="700" letter-spacing="-0.06em" fill="${C.yellow}">${totalStr}</text>
+  <text x="100" y="134" text-anchor="middle" class="mono" font-size="10" fill="${C.muted}">last year · ${fmt(recent)}</text>
+  <line x1="20" y1="151" x2="180" y2="151" stroke="${C.border}"/>
+  <text x="100" y="178" text-anchor="middle" class="mono" font-size="10.5" fill="${C.muted}">${repos} repos · ${yearsActive} yrs · since ${sinceYear}</text>
 </svg>`;
 }
 
